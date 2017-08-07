@@ -5,32 +5,32 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Operate" Type="Folder">
-		<Item Name="Debug.vi" Type="VI" URL="../Log4Lv/Operate/Debug.vi"/>
-		<Item Name="Error.vi" Type="VI" URL="../Log4Lv/Operate/Error.vi"/>
-		<Item Name="Info.vi" Type="VI" URL="../Log4Lv/Operate/Info.vi"/>
-		<Item Name="PrintError.vi" Type="VI" URL="../Log4Lv/Operate/PrintError.vi"/>
-		<Item Name="Warn.vi" Type="VI" URL="../Log4Lv/Operate/Warn.vi"/>
+		<Item Name="Debug.vi" Type="VI" URL="../Operate/Debug.vi"/>
+		<Item Name="Error.vi" Type="VI" URL="../Operate/Error.vi"/>
+		<Item Name="Info.vi" Type="VI" URL="../Operate/Info.vi"/>
+		<Item Name="PrintError.vi" Type="VI" URL="../Operate/PrintError.vi"/>
+		<Item Name="Warn.vi" Type="VI" URL="../Operate/Warn.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="CheckSizeAndRefreshFile.vi" Type="VI" URL="../Log4Lv/Private/CheckSizeAndRefreshFile.vi"/>
-		<Item Name="Close.vi" Type="VI" URL="../Log4Lv/Private/Close.vi"/>
-		<Item Name="Config Global.vi" Type="VI" URL="../Log4Lv/Private/Config Global.vi"/>
+		<Item Name="CheckSizeAndRefreshFile.vi" Type="VI" URL="../Private/CheckSizeAndRefreshFile.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Private/Close.vi"/>
+		<Item Name="Config Global.vi" Type="VI" URL="../Private/Config Global.vi"/>
 		<Item Name="Config.ctl" Type="VI" URL="../private/Config.ctl"/>
-		<Item Name="CreateLogRecord.vi" Type="VI" URL="../Log4Lv/Private/CreateLogRecord.vi"/>
-		<Item Name="GetConfigFromFile.vi" Type="VI" URL="../Log4Lv/Private/GetConfigFromFile.vi"/>
-		<Item Name="GetLogfileNameByTime.vi" Type="VI" URL="../Log4Lv/Private/GetLogfileNameByTime.vi"/>
-		<Item Name="GetLogQueue.vi" Type="VI" URL="../Log4Lv/Private/GetLogQueue.vi"/>
-		<Item Name="GetQueueNameByLogName.vi" Type="VI" URL="../Log4Lv/Private/GetQueueNameByLogName.vi"/>
-		<Item Name="NewFile.vi" Type="VI" URL="../Log4Lv/Private/NewFile.vi"/>
-		<Item Name="Open.vi" Type="VI" URL="../Log4Lv/Private/Open.vi"/>
-		<Item Name="RunLogRecord.vi" Type="VI" URL="../Log4Lv/Private/RunLogRecord.vi"/>
-		<Item Name="RunLogRecordDynamic.vi" Type="VI" URL="../Log4Lv/Private/RunLogRecordDynamic.vi"/>
-		<Item Name="SendLogMsg.vi" Type="VI" URL="../Log4Lv/Private/SendLogMsg.vi"/>
-		<Item Name="Write.vi" Type="VI" URL="../Log4Lv/Private/Write.vi"/>
-		<Item Name="WriteLog.vi" Type="VI" URL="../Log4Lv/Private/WriteLog.vi"/>
+		<Item Name="CreateLogRecord.vi" Type="VI" URL="../Private/CreateLogRecord.vi"/>
+		<Item Name="GetConfigFromFile.vi" Type="VI" URL="../Private/GetConfigFromFile.vi"/>
+		<Item Name="GetLogfileNameByTime.vi" Type="VI" URL="../Private/GetLogfileNameByTime.vi"/>
+		<Item Name="GetLogQueue.vi" Type="VI" URL="../Private/GetLogQueue.vi"/>
+		<Item Name="GetQueueNameByLogName.vi" Type="VI" URL="../Private/GetQueueNameByLogName.vi"/>
+		<Item Name="NewFile.vi" Type="VI" URL="../Private/NewFile.vi"/>
+		<Item Name="Open.vi" Type="VI" URL="../Private/Open.vi"/>
+		<Item Name="RunLogRecord.vi" Type="VI" URL="../Private/RunLogRecord.vi"/>
+		<Item Name="RunLogRecordDynamic.vi" Type="VI" URL="../Private/RunLogRecordDynamic.vi"/>
+		<Item Name="SendLogMsg.vi" Type="VI" URL="../Private/SendLogMsg.vi"/>
+		<Item Name="Write.vi" Type="VI" URL="../Private/Write.vi"/>
+		<Item Name="WriteLog.vi" Type="VI" URL="../Private/WriteLog.vi"/>
 	</Item>
-	<Item Name="Init.vi" Type="VI" URL="../Log4Lv/Init.vi"/>
-	<Item Name="Log.vi" Type="VI" URL="../Log4Lv/Log.vi"/>
-	<Item Name="Release.vi" Type="VI" URL="../Log4Lv/Release.vi"/>
+	<Item Name="Init.vi" Type="VI" URL="../Init.vi"/>
+	<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
+	<Item Name="Release.vi" Type="VI" URL="../Release.vi"/>
 </Library>
